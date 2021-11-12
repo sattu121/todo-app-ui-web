@@ -1,0 +1,262 @@
+.container{
+    border: 2px solid black;
+    border: hidden;
+    height: 500px;
+    width: 900px;
+    justify-content: center;
+    /* align-items: center; */
+    display: flex;
+    position: absolute;
+    top: 250px;
+    left: 350px;
+}
+.box{
+    border: 1px solid rgb(218, 72, 47);;
+    margin: 30px;
+    padding-top: 10px;
+    border-radius: 10px;
+    width: 210px;
+    height: 320px;
+    box-shadow: 10px 10px 8px lightgray;
+}
+.top_heading{
+    border: 2px solid rgb(46, 44, 44);;
+    border: hidden;
+    width: 900px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 170px;
+    left: 350px;
+
+}
+.heading{
+    font-size: 3ch;
+    color: rgb(218, 72, 47);;
+    font-style: normal;
+    font-family: Calibri;
+    text-align: center;
+}
+.heading1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    margin-left: 70px;
+    color: rgb(46, 44, 44);
+}
+.heading2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    margin-left: 10px;
+    color: grey;
+}
+.heading3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: grey;
+    position: absolute;
+    /* top: 8px; */
+    right: 120px;
+}
+.symbol{
+    position: absolute;
+    right: 240px;
+    /* margin-top: 7px; */
+    color: rgb(218, 72, 47);
+    font-size: 40px;
+}
+a{
+    text-decoration: none;
+    color: rgb(218, 72, 47);
+}
+.line1{
+    border: 1px solid grey;
+    width: 80%;
+    margin-left: 41px;
+    margin-top: 10px;
+}
+.line2{
+    border: 1.8px solid red;
+    width: 170px;
+    position: absolute;
+    top: 130px;
+    margin-left: 22px;    
+}
+.strike{
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    font-size: 23px;
+    font-weight: 500;
+    margin-top: 35px;
+    margin-left: 30px;
+}
+.largerCheckBox{
+    height: 20px;
+    width: 20px;
+}
+.pendingTask{
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(46, 44, 44);
+    font-size: 20px;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+/* index2.html */
+.top_heading2{
+    border: 2px solid black;
+    border: hidden;
+    width: 900px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heading4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    color: rgb(46, 44, 44);
+    margin-left: 20px;
+    margin-right: 30px;
+}
+.line3{
+    border: 1px solid grey;
+    width: 150px;
+}
+.back_box{
+    border: 1px solid black;
+    border: hidden;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.back_button{
+    font-size: 35px;
+    color: rgb(218, 72, 47);
+}
+.back{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: grey;
+    margin-left: 15px;
+}
+.box2{
+    border: 1px solid rgb(218, 72, 47);;
+    border-radius: 10px;
+    width: 450px;
+    height: 420px;
+    margin-top: 70px;
+    box-shadow: 10px 10px 8px lightgray;
+}
+.heading5{
+    font-size: 4ch;
+    color: rgb(218, 72, 47);
+    font-style: normal;
+    font-family: Calibri;
+    text-align: center;
+    margin-top: 30px;
+}
+.line4{
+    border: 1px solid grey;
+    width: 70%;
+    margin-left: 133px;
+    margin-top: 18px;
+}
+.line5{
+    border: 1.8px solid rgb(218, 72, 47);
+    width: 186px;
+    position: absolute;
+    top: 417px;
+    margin-left: 136px;
+}
+.strike2{
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(218, 72, 47);
+    font-size: 23px;
+    font-weight: 600;
+    margin-top: 35px;
+    margin-left: 30px;
+}
+.largerCheckBox2{
+    height: 23px;
+    width: 23px;
+}
+.pendingTask2{
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(46, 44, 44);
+    font-size: 25px;
+    margin-left: -36px;
+    margin-top: 20px;
+}
+.plus_button{
+    font-size: 40px;
+    color: rgb(218, 72, 47);
+    margin-top: 162px;
+    margin-left: 380px;
+}
+
+/* card1.html */
+.blurbox{
+    border: hidden;
+    height: 800px;
+    display: block;
+    background-image: url(./taskList.png);
+    background-size: 1500px;
+    filter: blur(7px);
+}
+.card{
+    border: 1px solid rgb(218, 72, 47);
+    background-color: white;
+    border-radius: 10px;
+    width: 450px;
+    height: 220px;
+    position: relative;
+    display: block;
+    margin-top: -550px;
+    margin-left: 550px;
+}
+.heading6{
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(218, 72, 47);
+    font-size: 23px;
+    margin-top: 35px;
+    text-align: center;
+}
+#textbox{
+    height: 40px;
+    width: 320px;
+    border: 1px solid rgb(218, 72, 47);
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-left: 65px;
+    box-shadow: 4px 4px 5px lightgray;
+}
+.addButton{
+    border: 1px solid rgb(218, 72, 47);
+    border-radius: 20px;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(218, 72, 47);
+    font-size: 20px;
+    color: white;
+    margin-left: 175px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*card2.html*/
+.blurbox2{
+    border: hidden;
+    height: 800px;
+    display: block;
+    background-image: url(./tripToParis.png);
+    background-size: 1500px;
+    filter: blur(7px);
+}
