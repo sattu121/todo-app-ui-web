@@ -2,7 +2,7 @@
     border: 2px solid black;
     border: hidden;
     height: 500px;
-    width: 900px;
+    width: 59%;
     justify-content: center;
     display: flex;
     position: absolute;
@@ -10,18 +10,18 @@
     left: 350px;
 }
 .box{
-    border: 1px solid rgb(218, 72, 47);;
+    border: 1px solid rgb(218, 72, 47);
     margin: 30px;
     padding-top: 10px;
     border-radius: 10px;
-    width: 210px;
+    width: 25%;
     height: 320px;
-    box-shadow: 10px 10px 8px lightgray;
+    box-shadow: 10px 10px 8px lightgrey;
 }
 .top_heading{
-    border: 2px solid rgb(46, 44, 44);;
+    border: 2px solid rgb(46, 44, 44);
     border: hidden;
-    width: 900px;
+    width: 59%;
     position: absolute;
     display: flex;
     align-items: center;
@@ -40,7 +40,7 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 60px;
     font-weight: 700;
-    margin-left: 70px;
+    margin-left: 47px;
     color: rgb(46, 44, 44);
 }
 .heading2{
@@ -56,11 +56,11 @@
     color: grey;
     position: absolute;
     /* top: 8px; */
-    right: 120px;
+    right: 97px;
 }
 .symbol{
     position: absolute;
-    right: 240px;
+    right: 216px;
     /* margin-top: 7px; */
     color: rgb(218, 72, 47);
     font-size: 40px;
@@ -72,7 +72,7 @@ a{
 .line1{
     border: 0.5px solid grey;
     width: 80%;
-    margin-left: 41px;
+    margin-left: 43px;
     margin-top: 10px;
     background-color: grey;
 }
@@ -82,7 +82,7 @@ a{
     width: 170px;
     position: absolute;
     top: 130px;
-    margin-left: 22px;    
+    margin-left: 34px;    
 }
 .strike{
     font-style: normal;
@@ -102,7 +102,7 @@ a{
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(46, 44, 44);
     font-size: 20px;
-    margin-left: 15px;
+    margin-left: -50px;
     margin-top: 20px;
 }
 /* index2.html */
