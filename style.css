@@ -109,7 +109,7 @@ a{
 .top_heading2{
     border: 2px solid black;
     border: hidden;
-    width: 900px;
+    width: 50%;
     margin-top: 50px;
     display: flex;
     align-items: center;
@@ -131,7 +131,7 @@ a{
 .back_box{
     border: 1px solid black;
     border: hidden;
-    width: 200px;
+    width: 10%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -148,12 +148,12 @@ a{
     margin-left: 15px;
 }
 .box2{
-    border: 1px solid rgb(218, 72, 47);;
+    border: 1px solid rgb(218, 72, 47);
     border-radius: 10px;
-    width: 450px;
-    height: 420px;
+    width: 30%;
+    height: 444px;
     margin-top: 70px;
-    box-shadow: 10px 10px 8px lightgray;
+    box-shadow: 10px 10px 8px lightgrey;
 }
 .heading5{
     font-size: 4ch;
@@ -167,7 +167,7 @@ a{
     border: 1px solid grey;
     background-color: grey;
     width: 70%;
-    margin-left: 133px;
+    margin-left: 134px;
     margin-top: 18px;
 }
 .line5{
@@ -202,31 +202,79 @@ a{
 .plus_button{
     font-size: 40px;
     color: rgb(218, 72, 47);
-    margin-top: 162px;
-    margin-left: 380px;
+    margin-top: 182px;
+    margin-left: 377px;
 }
 
 /* card1.html */
 .blurbox{
     border: hidden;
-    height: 800px;
+    height: 735px;
     display: block;
-    background-image: url(./taskList.png);
+    background-image: url(./Capture.PNG);
     background-size: 1500px;
-    filter: blur(7px);
+    filter: blur(6px);
 }
 .card{
     border: 1px solid rgb(218, 72, 47);
     background-color: white;
     border-radius: 10px;
-    width: 450px;
+    width: 27%;
+    height: 210px;
+    position: relative;
+    display: block;
+    margin-top: -506px;
+}
+.heading6{
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(218, 72, 47);
+    font-size: 23px;
+    margin-top: 32px;
+    text-align: center;
+}
+#textbox{
+    height: 37px;
+    width: 294px;
+    border: 1px solid rgb(218, 72, 47);
+    border-radius: 5px;
+    margin-top: 23px;
+    box-shadow: 4px 4px 5px lightgrey;
+}
+.addButton{
+    border: 1px solid rgb(218, 72, 47);
+    border-radius: 20px;
+    width: 90px;
+    height: 36px;
+    background-color: rgb(218, 72, 47);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*card2.html*/
+.blurbox2{
+    border: hidden;
+    height: 735px;
+    display: block;
+    background-image: url(./Capture2.PNG);
+    background-size: 1500px;
+    filter: blur(6px);
+}
+.card2{
+    border: 1px solid rgb(218, 72, 47);
+    background-color: white;
+    border-radius: 10px;
+    width: 30%;
     height: 220px;
     position: relative;
     display: block;
-    margin-top: -550px;
-    margin-left: 550px;
+    margin-top: -475px;
+    margin-left: -30px;
 }
-.heading6{
+.heading7{
     font-style: normal;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(218, 72, 47);
@@ -234,16 +282,15 @@ a{
     margin-top: 35px;
     text-align: center;
 }
-#textbox{
+#textbox2{
     height: 40px;
     width: 320px;
     border: 1px solid rgb(218, 72, 47);
     border-radius: 5px;
-    margin-top: 25px;
-    margin-left: 65px;
-    box-shadow: 4px 4px 5px lightgray;
+    margin-top: 23px;
+    box-shadow: 4px 4px 5px lightgrey;
 }
-.addButton{
+.addButton2{
     border: 1px solid rgb(218, 72, 47);
     border-radius: 20px;
     width: 100px;
@@ -252,17 +299,7 @@ a{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     color: white;
-    margin-left: 175px;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-/*card2.html*/
-.blurbox2{
-    border: hidden;
-    height: 800px;
-    display: block;
-    background-image: url(./tripToParis.png);
-    background-size: 1500px;
-    filter: blur(7px);
 }
