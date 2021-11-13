@@ -117,7 +117,7 @@ a{
 }
 .heading4{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 60px;
+    font-size: 62px;
     font-weight: 700;
     color: rgb(46, 44, 44);
     margin-left: 20px;
@@ -138,21 +138,21 @@ a{
     margin-top: 50px;
 }
 .back_button{
-    font-size: 35px;
+    font-size: 39px;
     color: rgb(218, 72, 47);
 }
 .back{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
+    font-size: 34px;
     color: grey;
     margin-left: 15px;
 }
 .box2{
     border: 1px solid rgb(218, 72, 47);
     border-radius: 10px;
-    width: 30%;
-    height: 444px;
-    margin-top: 70px;
+    width: 29%;
+    height: 430px;
+    margin-top: 66px;
     box-shadow: 10px 10px 8px lightgrey;
 }
 .heading5{
@@ -167,16 +167,16 @@ a{
     border: 1px solid grey;
     background-color: grey;
     width: 70%;
-    margin-left: 134px;
-    margin-top: 18px;
+    margin-left: 130px;
+    margin-top: 14px;
 }
 .line5{
     border: 1.5px solid rgb(218, 72, 47);
     background-color: rgb(218, 72, 47);
     width: 186px;
     position: absolute;
-    top: 417px;
-    margin-left: 136px;
+    top: 414px;
+    margin-left: 129px;
 }
 .strike2{
     font-style: normal;
@@ -202,8 +202,8 @@ a{
 .plus_button{
     font-size: 40px;
     color: rgb(218, 72, 47);
-    margin-top: 182px;
-    margin-left: 377px;
+    margin-top: 177px;
+    margin-left: 370px;
 }
 
 /* card1.html */
