@@ -151,8 +151,8 @@ a{
     border: 1px solid rgb(218, 72, 47);
     border-radius: 10px;
     width: 29%;
-    height: 430px;
-    margin-top: 66px;
+    height: 420px;
+    margin-top: 65px;
     box-shadow: 10px 10px 8px lightgrey;
 }
 .heading5{
@@ -202,7 +202,7 @@ a{
 .plus_button{
     font-size: 40px;
     color: rgb(218, 72, 47);
-    margin-top: 177px;
+    margin-top: 166px;
     margin-left: 370px;
 }
 
