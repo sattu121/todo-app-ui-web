@@ -82,9 +82,9 @@ a{
     width: 170px;
     position: absolute;
     top: 130px;
-    margin-left: 34px;    
+    margin-left: 19px;    
 }
-.strike{
+.completed_task{
     font-style: normal;
     font-family: Arial, Helvetica, sans-serif;
     color: red;
@@ -102,7 +102,7 @@ a{
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(46, 44, 44);
     font-size: 20px;
-    margin-left: -50px;
+    margin-left: 10px;
     margin-top: 20px;
 }
 /* index2.html */
