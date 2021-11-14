@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .container{
     border: 2px solid black;
     border: hidden;
@@ -8,8 +12,27 @@
     position: absolute;
     top: 250px;
     left: 350px;
+    box-sizing: border-box;
 }
-.box{
+.box1{
+    border: 1px solid rgb(218, 72, 47);
+    margin: 30px;
+    padding-top: 10px;
+    border-radius: 10px;
+    width: 25%;
+    height: 320px;
+    box-shadow: 10px 10px 8px lightgrey;
+}
+.box2{
+    border: 1px solid rgb(218, 72, 47);
+    margin: 30px;
+    padding-top: 10px;
+    border-radius: 10px;
+    width: 25%;
+    height: 320px;
+    box-shadow: 10px 10px 8px lightgrey;
+}
+.box3{
     border: 1px solid rgb(218, 72, 47);
     margin: 30px;
     padding-top: 10px;
@@ -27,7 +50,7 @@
     align-items: center;
     top: 170px;
     left: 350px;
-
+    box-sizing: border-box;
 }
 .heading{
     font-size: 3ch;
@@ -55,13 +78,11 @@
     font-size: 30px;
     color: grey;
     position: absolute;
-    /* top: 8px; */
     right: 97px;
 }
-.symbol{
+.circle{
     position: absolute;
     right: 216px;
-    /* margin-top: 7px; */
     color: rgb(218, 72, 47);
     font-size: 40px;
 }
@@ -147,7 +168,7 @@ a{
     color: grey;
     margin-left: 15px;
 }
-.box2{
+.box4{
     border: 1px solid rgb(218, 72, 47);
     border-radius: 10px;
     width: 29%;
@@ -302,4 +323,59 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+@media(max-width:600px){
+    .heading3{
+        display: none;
+    }
+    .top_heading{
+        width: 90%;
+        top: 46px;
+        left: 18px;
+    }
+    .heading1{
+        font-size: 45px;
+        margin-left: 0px;
+    }
+    .heading2{
+        font-size: 45px;
+    }
+    .circle{
+        right: 6px;
+        font-size: 34px;
+    }
+    .container{
+        width: 90%;
+        display: block;
+        left: 18px;
+        top: 134px;
+    }
+    .box1{
+        width: 95%;
+        margin: 0px 0px 30px 0px;
+        height: 50px;
+    }
+    .box2{
+        width: 95%;
+        margin: 0px 0px 30px 0px;
+        height: 50px;
+    }
+    .box3{
+        width: 95%;
+        margin: 0px 0px 30px 0px;
+        height: 50px;
+    }
+    .line1{
+        display: none;
+    }
+    .completed_task{
+        display: none;
+    }
+    .line2{
+        display: none;
+    }
+    .pendingTask{
+        display: none;
+    }
+
 }
